@@ -83,10 +83,15 @@ main {
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image {
+        width: 400px;
+        height: 400px;
+        position: relative;
         grid-area: bioimage;
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
+
+
     }
 
     .bio {
